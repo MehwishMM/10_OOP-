@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 
@@ -6,6 +7,7 @@ class Student {
     constructor(n:string){
         this.name=n
     }
+
 }
 
 class Person{
